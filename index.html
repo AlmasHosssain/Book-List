@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-grid.min.css">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- Main css  -->
+	<link rel="stylesheet" type="text/css" href="css/book.css">
+
+	<!-- Font awsome -->
+	<script src="js/all.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<title>Book List</title>
+</head>
+<body>
+
+	<div class="container mt-4">
+		<h1 class="display-4 text-center">
+			<i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>List</h1>
+			<div class="feedback alert alert-danger text-capitalize">budget feedback</div>
+		  <form id="book-form" class="from-control">
+			<div class="form-group">
+			  <label for="title">Title</label>
+			  <input type="text" id="title" class="form-control">
+			</div>
+			<div class="form-group">
+			  <label for="author">Author</label>
+			  <input type="text" id="author" class="form-control">
+			</div>
+			<div class="form-group">
+			  <label for="isbn">PhNo</label>
+			  <input type="number" id="isbn" class="form-control">
+			</div>
+			<input type="submit" value="Add Book" class="btn btn-primary btn-block">
+		  </form>
+		  <table class="table table-striped mt-5 jik">
+			<thead>
+			  <tr>
+				<th>Title</th>
+				<th>Author</th>
+				<th>ISBN#</th>
+				<th></th>
+				</tr>
+			</thead>
+			<tbody id="book-list">
+				
+			</tbody>
+		  </table>
+	  </div>
+
+
+
+<!--<span>A.A.A = A<sup>3</sup></span>-->
+	<!-- jquery -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	
+	<!-- Bootstrap js -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+	<!-- ES6 script -->
+	<script type="text/javascript" src="js/book.js"></script>
+</body>
+</html>
